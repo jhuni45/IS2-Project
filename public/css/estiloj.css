@@ -1,0 +1,17 @@
+#resultados{
+	width:640px;
+	padding:auto 20px;
+	}
+
+#btncomprar
+{
+	background:url(../images/comprarahora.png);
+}
+
+#n_asiento{
+	margin-bottom:20px;
+}
+
+#modificar{
+	width: 200px;
+}
