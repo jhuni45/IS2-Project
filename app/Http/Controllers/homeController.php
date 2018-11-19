@@ -31,8 +31,17 @@ class homeController extends Controller
     public function login()
     {
       return view('login');
-    }public function registro()
+    }
+    public function registro()
     {
       return view('registro');
+    }
+    public function compra()
+    {
+      return view('compra');
+    }
+    public function pasaje()
+    {
+      return view('pasaje');
     }
 }

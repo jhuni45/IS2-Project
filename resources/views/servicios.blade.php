@@ -4,7 +4,7 @@
 <div id="main_body">
 <div id="body">
 <h2>Servicios</h2>
-<form action="pasaje.html">
+<form action="{{url('pasaje')}}">
 <fieldset style="border-radius:5px">
 <div class="inp">
 <label>Origen :</label>

@@ -4,12 +4,12 @@
 <head>
 	<title>Formulario</title>
 	<meta charset="utf-8">
-	<link type="text/css" href="./../css/style.css" rel="stylesheet" />
+	<link type="text/css" href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
 	<div id="registrar">
-          	<a href="../index.html"</a>Regresar</a>
+          	<a href=""</a>Regresar</a>
     </div>
 	<div id="envoltura">
 		<div id="contenedor">
