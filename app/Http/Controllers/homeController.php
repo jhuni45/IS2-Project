@@ -10,10 +10,29 @@ class homeController extends Controller
     {
       //$name="hola soy chichico";
       //return view('myview',['chichico'=>$name ]);
-      return view('myview');
+      return view('welcome');
     }
     public function atencionCliente()
     {
       return view('atencionCliente');
+    }
+    public function servicios()
+    {
+      return view('servicios');
+    }
+    public function promociones()
+    {
+      return view('promociones');
+    }
+    public function enlaces()
+    {
+      return view('enlaces');
+    }
+    public function login()
+    {
+      return view('login');
+    }public function registro()
+    {
+      return view('registro');
     }
 }

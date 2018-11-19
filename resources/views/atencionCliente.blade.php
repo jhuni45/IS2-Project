@@ -1,7 +1,6 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+@extends('templates.plantilla')
+@section('title','Rodar')
+@section('content')
 <script type="text/javascript" src="js/jquery1.10.2.js"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
 <script type="text/javascript" src="js/funciones.js"></script>
@@ -14,55 +13,8 @@
 	})
 	</script>
 
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title>Rodar.com</title>
 
 
-  <link href="css/estilo1.css" rel="stylesheet" type="text/css" />
-
-</head>
-
-
-<body>
-
-<div id="main_header">
-<div id="header">
-<ul>
-
-  <li><a href="index.html" class="home" title="home">home</a></li>
-
-  <li><a href="#" class="user" title="user">user</a></li>
-
-  <li><a href="atencioncliente.html" class="contact" title="contact">contact</a></li>
-  <li><a href="promociones.html" class="user" title="user">user</a></li>
-
-
-</ul>
-
-<ul class="free">
-
-  <li><a class="call">800-121-4545 759-121-5454</a></li>
-
-</ul>
-
-<img src="images/logo.png" alt="Rodar.com" title="Rodar.com" height="65" width="205" />
-<ul class="navi">
-
-  <li><a href="index.html">Home</a></li>
-
-  <li><a href="servicios.php">Servicios</a></li>
-
-  <li><a href="promociones.html">Promociones</a></li>
-
-  <li><a href="atencioncliente.html">Atencion al cliente</a></li>
-
-  <li class="li1"><a href="enlaces.html">Enlaces</a></li>
-
-</ul>
-
-</div>
-
-</div>
 
 <div id="main_body">
 <div id="body">
@@ -143,11 +95,4 @@
 
 </div>
 
-<div id="main_footer">
-<div id="footer"><!--footer navigation start -->
-  <p>&nbsp;</p>
-</div>
-
-<!--footer navigation end --></div>
-</body>
-</html>
+@endsection
