@@ -1,6 +1,7 @@
 @extends('templates.plantilla')
 @section('tittle','Rodar')
 @section('content')
+
 <div id="main_body">
 <div id="body">
 <div class="container">
@@ -33,7 +34,7 @@
 					<div class="jms-content">
 						<h3>Atencion al Cliente</h3>
 					<p>Si tiene alguna consulta, sugerencia, pedido o idea por favor envienosla que estaremos agradecidos</p>
-						<a class="jms-link" href="atencion_cliente.blade.php">Leer Mas</a>
+						<a class="jms-link" href="atencioncliente.html">Leer Mas</a>
 					</div>
 					<img src="images/11b.jpg" />
 				</div>
@@ -56,10 +57,9 @@
 
 				$( '#jms-slideshow' ).jmslideshow( $.extend( true, { jmpressOpts : jmpressOpts }, {
 					autoplay	: true,
-					bgColorSpeed: '0.8s',
+					bgColorSpeed: '1.8s',
 					arrows		: false
 				}));
-
 			});
 		</script>
 
@@ -96,4 +96,5 @@
 </div>
 
 </div>
+
 @endsection

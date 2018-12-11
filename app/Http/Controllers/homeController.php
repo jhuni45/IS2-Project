@@ -8,8 +8,6 @@ class homeController extends Controller
 {
     public function index()
     {
-      //$name="hola soy chichico";
-      //return view('myview',['chichico'=>$name ]);
       return view('welcome');
     }
     public function atencionCliente()

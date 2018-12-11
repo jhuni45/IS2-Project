@@ -1,6 +1,7 @@
 @extends('templates.plantilla')
 @section('title','Rodar')
 @section('content')
+
 <div id="main_body">
 <div id="body">
 <h2>Servicios</h2>
@@ -42,4 +43,5 @@
 </div>
 
 </div>
+
 @endsection

@@ -1,0 +1,6 @@
+projectKey=Rodar
+serverUrl=http://localhost:9000
+serverVersion=6.7.5.38563
+dashboardUrl=http://localhost:9000/dashboard/index/Rodar
+ceTaskId=AWdwib46AJ-m7BwpGe3W
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWdwib46AJ-m7BwpGe3W

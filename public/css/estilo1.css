@@ -310,20 +310,21 @@ ul{
 #footer p.de a:hover {
 	color:#fff;	background-color:#0a5083;
 	}
-#formu
+
+form
 {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 20px;
-	height: 220px;}
+	}
 
-#formu div.inp{float:none; width: 300px; height: 30px;}
+form div.inp{float:none; width: 400px; height: 30px;}
 
-#formu div.sel{float:none; width: 300px; height: 30px;}
+form div.sel{float:none; width: 300px; height: 30px;}
 
-#formu label
+form label
 {
 	float:left;
-	width: 100px;
+	width: 150px;
 }
 
 input:focus
@@ -356,4 +357,31 @@ input[type=submit]
 .bloque p
 {
 	color: #999999;
+}
+
+ul.itinerarios
+{
+	clear: both;
+	float:left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #7c7c7c;
+}
+
+ul.itinerarios li
+{
+float:left;
+}
+
+ul.itinerarios li a{
+	padding: .3em;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background: #f4f4f4;
+	border-top: 1px solid #7c7c7c;
+	border-right: 1px solid #7c7c7c;
+	border-bottom: 1px solid #9c9c9c;
 }
